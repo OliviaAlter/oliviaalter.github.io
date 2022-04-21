@@ -1,0 +1,33 @@
+#infoContainer {
+	position: absolute;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	padding: 40px 20px 20px;
+	/* animation: slideOut var(--animation-length); */
+}
+
+#holderForTerminal {
+	width: 50%;
+	height: auto;
+	top: 0;
+}
+
+#aboutMe {
+	width: 50%;
+	height: 100%;
+	/* padding: 20px; */
+	font-family: Fira Mono Regular, sans-serif;
+	font-size: 11px;
+	line-height: 19px;
+	word-wrap: break-word;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	user-select: none;
+}

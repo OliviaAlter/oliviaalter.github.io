@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta property="og:title" content="百鬼あやめ">
+    <meta property="og:image" content="../image/ayame_sky.jpg">
+    <meta property="og:description" content="Weeb > You < Weeb">
+    <title>百鬼あやめ</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/navBar.css">
+    <link rel="stylesheet" type="text/css" href="../css/musicPlayer.css">
+    <link rel="stylesheet" type="text/css" href="../css/osInfo.css">
+    <link rel="stylesheet" type="text/css" href="../css/startMenu.css">
+    <link href="../favicon/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/resize_sensors.min.js"></script>
+    <script src="../js/windows.min.js"></script>
+    <script src="../js/sliders.min.js"></script>
+    <script src="../js/slide_out.min.js"></script>
+    <style type="text/css"></style><style type="text/css"></style><style type="text/css"></style><style type="text/css"></style></head>
+
+<body onload="onTime()">
+<div id="main">
+    <div id="topSection">
+        <div id="powerButton"></div>
+        <div id="navBar">
+            <div class="divHolder"></div>
+            <div class="spaces">
+                <div id="osInfo-icon" class="space space--active">1
+                    <svg height="24" viewBox="0 0 24 24" width="24">
+                        <path d="M9.67432 12.8243L2.38645 20.1121C2.03496 20.4636 1.46511 20.4636 1.11366 20.1121L0.263607 19.2621C-0.0872808 18.9112 -0.0879557 18.3425 0.262107 17.9908L6.03794 12.1878L0.262145 6.38491C-0.0879182 6.0332 -0.0872432 5.46451 0.263645 5.11363L1.11366 4.26362C1.46515 3.91213 2.035 3.91213 2.38645 4.26362L9.67432 11.5515C10.0258 11.9029 10.0258 12.4728 9.67432 12.8243ZM24 19.6878V18.4878C24 17.9908 23.5971 17.5878 23.1 17.5878H11.7C11.203 17.5878 10.8 17.9908 10.8 18.4878V19.6878C10.8 20.1849 11.203 20.5878 11.7 20.5878H23.1C23.5971 20.5878 24 20.1849 24 19.6878Z"/>
+                    </svg>
+                </div>
+                <div id="audioPlayer-icon" class="space">2
+                    <svg height="24" viewBox="0 0 24 24" width="24">
+                        <path clip-rule="evenodd"
+                              d="M12 24a12 12 0 1 0 0-24 12 12 0 0 0 0 24zm4.28-18.93l.5-.07c.23 0 .39.12.45.34.02.07.01 9.1.01 10.6a1.9 1.9 0 0 1-1.37 1.76c-.47.14-1.15.2-1.48.12-.3-.07-.52-.2-.75-.44-.35-.34-.5-.7-.5-1.15 0-.25.04-.44.16-.7.17-.36.4-.57.79-.77.31-.16.6-.24 1.42-.41.54-.12.76-.16.87-.29.15-.17.04-5.36 0-5.43-.07-.1-.2-.14-.35-.12l-5.62 1.13a.4.4 0 0 0-.29.32l-.02 1.34c-.01 2.2-.05 6.39-.16 6.7a2.3 2.3 0 0 1-.18.37c-.14.2-.4.46-.6.58-.5.29-1.45.44-1.96.3-.54-.14-.94-.5-1.12-1.03-.09-.24-.1-.65-.05-.93.07-.28.22-.55.41-.75.35-.35.77-.52 1.88-.74l.55-.13a.64.64 0 0 0 .34-.32c.04-.1.07-8.5.07-8.5l.06-.1a.7.7 0 0 1 .36-.34c.1-.03 5.64-1.16 6.58-1.34z"
+                              fill-rule="evenodd"/>
+                    </svg>
+                </div>
+                <div id="blank-icon" class="space" onclick="window.location = 'https://music.apple.com/us/browse'">3
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path d="M17.218,2.268L2.477,8.388C2.13,8.535,2.164,9.05,2.542,9.134L9.33,10.67l1.535,6.787c0.083,0.377,0.602,0.415,0.745,0.065l6.123-14.74C17.866,2.46,17.539,2.134,17.218,2.268 M3.92,8.641l11.772-4.89L9.535,9.909L3.92,8.641z M11.358,16.078l-1.268-5.613l6.157-6.157L11.358,16.078z"></path>
+                    </svg>
+                </div>
+                <div class="space" onclick="window.location = 'https://www.youtube.com/watch?v=z1W4c7ym49Y'">+</div>
+            </div>
+            <div class="icon"></div>
+        </div>
+        <div id="time">1:17:50 AM</div>
+    </div>
+    <div id="bgMenu">
+        <div id="loginAvatar"></div>
+        <div id="idInputContainer" class="inputContainer">
+            <label for="idInputField" class="label">Username: </label>
+            <input id="idInputField" type="text" class="inputField">
+        </div>
+        <div id="pwInputContainer" class="inputContainer">
+            <label for="pwInputField" class="label">Password: </label>
+            <input id="pwInputField" type="password" class="inputField" minlength="8" required="">
+        </div>
+        <div class="float-container">
+            <div id="loginButton" class="float-login-button"></div>
+            <div id="cancelButton" class="float-login-button" ></div>
+        </div>
+    </div>
+
+    <div id="windowManager">
+        <div id="osInfo" class="windowContainer" style="animation: 1s ease 0s 1 normal none running slideInOffsInfo;">
+            <div id="infoContainer">
+                <div id="holderForTerminal"></div>
+                <div id="aboutMe">
+                </div>
+                <div class="terminal">
+                    <noscript>
+                        <div>olivia@<span style="color: lightgreen">myouri</span>:<span style="color: dodgerblue">~</span>$ ./noscript
+                        </div>
+                        <div>please enable <span>javascript</span></div>
+                        <div class="new-line">olivia@<span style="color: lightgreen">myouri</span>:<span
+                                style="color: dodgerblue">~</span>$ enable javascript
+                        </div>
+                    </noscript>
+                </div>
+            </div>
+            <div id="osInfoHeader" class="header">System Information</div>
+        </div>
+        <div id="audioPlayer" class="windowContainer" style="animation: 1s ease 0s 1 normal none running slideInOfaudioPlayer;">
+            <div id="audioPlayerContainer">
+                <div id="audioController">
+                    <div id="playButton" class="button"></div>
+                    <div id="nextButton" class="button"></div>
+                    <div id="prevButton" class="button"></div>
+                    <div id="playingTime" class="timer">0:00</div>
+                    <div id="fullTime" class="timer">4:10</div>
+                    <div id="slider">
+                        <div id="nowPlaying" style="width: 6px;"></div>
+                        <div id="node" style="left: 0;"></div>
+                    </div>
+                </div>
+                <div id="thumbMetaContainer">
+                    <div id="thumbnail" style="transform: rotate(0deg);"></div>
+                    <div id="metadata">
+                        <span style="font-family: SF Pro Display Bold,sans-serif; font-size: 45px">ヨルシカ - 花に亡霊</span><br>
+                        <span style="font-family: SF Pro Display Bold,sans-serif; font-size: 25px">百鬼あやめ cover</span>
+                    </div>
+                </div>
+            </div>
+            <div id="audioPlayerHeader" class="header">Audio Player</div>
+        </div>
+    </div>
+    <div id="scammed">LOL GET SCAMMED!</div>
+</div>
+<audio id="lightweight-audio" src="../audio/music.mp3"></audio>
+<script src="../js/login_audio.min.js"></script>
+<script src="../js/terminal_script.min.js"></script>
+<script src="../js/terminals.min.js"></script>
+
+</body></html>

@@ -1,0 +1,169 @@
+#audioPlayerContainer {
+	position: absolute;
+	width: calc(100% - 40px);
+	height: 100%;
+	padding: 20px;
+	bottom: 0;
+	left: 0;
+	/* animation: slideOut var(--animation-length); */
+}
+
+#audioController {
+	position: absolute;
+	width: calc(100% - 40px);
+	height: 100px;
+	padding: 20px;
+	bottom: 0;
+	left: 0;
+	border-radius: 0 0 10px 10px;
+	/* background-color: rgba(138, 70, 79, 0.5); */
+	color: white;
+}
+
+.button {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	transition: ease-in-out 300ms;
+	bottom: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.button:hover {
+	transform: translateY(-2px);
+	filter: drop-shadow(0 5px 5px rgba(95, 25, 34, 0.6));
+}
+
+#playButton {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	background-image: url("../svg/play.svg");
+	background-size: 100%;
+}
+
+#nextButton {
+	margin-left: auto;
+	margin-right: 20%;
+	left: 0;
+	right: 0;
+	background-image: url("../svg/fast-forward.svg");
+	background-size: 60%;
+}
+
+#prevButton {
+	margin-left: 20%;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	background-image: url("../svg/rewind.svg");
+	background-size: 60%;
+}
+
+.timer {
+	position: absolute;
+	top: 0;
+	margin: 20px;
+	user-select: none;
+}
+
+#playingTime {
+	left: 0;
+}
+
+#fullTime {
+	right: 0;
+}
+
+#slider,
+#nowPlaying {
+	position: absolute;
+	width: calc(100% - 140px);
+	height: 6px;
+	border-radius: 5px;
+	background-color: rgba(0 0 0 / 0.5);
+}
+
+#slider {
+	margin: 7px auto;
+	left: 0;
+	right: 0;
+}
+
+#node {
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	background-color: white;
+	border-radius: 6px;
+	transition: transform ease-in-out 100ms;
+}
+
+#node:hover {
+	transform: scale(2);
+}
+
+#nowPlaying {
+	background-color: white;
+}
+
+#thumbMetaContainer {
+	position: absolute;
+	width: calc(100% - 40px);
+	height: calc(100% - 80px - 140px);
+	top: 80px;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	overflow: hidden;
+}
+
+#metadata {
+	margin: 20px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	user-select: none;
+	text-shadow: 0 5px 5px rgba(22, 22, 22, 0.5);
+}
+
+#thumbnail {
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	background-image: url("../image/ayame_audio_face.jpg");
+	background-size: 100%;
+	box-shadow: 0 0 20px 0 black;
+	transition: ease-in-out 100ms;
+}
+
+#scammed {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 300px;
+	height: 50px;
+	background-color: rgba(22, 22, 22, 0.5);
+	backdrop-filter: blur(20px);
+	border-radius: 10px;
+	box-shadow: 0 10px 50px 0 black;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	animation-duration: 2s;
+	opacity: 0;
+	transition: ease-in-out 100ms;
+}
