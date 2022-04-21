@@ -270,8 +270,8 @@ ul {
 
 .img {
     border-radius: 10%;
-    width: 205px;
-    height: 205px;
+    width: 230px;
+    height: 230px;
     animation-name: imgpopin;
     animation-duration: 1s;
     float: left;
