@@ -186,7 +186,7 @@ function info() {
         "  <div><span id='terminalSpanText'>Discord</span>: <a href=\"https://discord.com\" target='_blank'>Olivia#3333</a></div>\n" +
         "  <div><span id='terminalSpanText'>Youtube</span>: <a href=\"https://www.youtube.com/channel/UC47UR8e2QlwI9NE1YFH5rrg/channels\" target='_blank'>Myouri Alter</a></div>\n" +
         "  <div><span id='terminalSpanText'>Github</span>: <a href=\"https://github.com/OliviaAlter\" target='_blank'>Myouri Alter</a></div>\n" +
-        "  <div><span id='terminalSpanText'>Steam</span>: <a href=\"https://steamcommunity.com/id/I-Wish-I-Were-Yandere/\" target='_blank'>Vue.js, React.js & Angular</a></div>\n" +
+        "  <div><span id='terminalSpanText'>Steam</span>: <a href=\"https://steamcommunity.com/id/I-Wish-I-Were-Yandere/\" target='_blank'>Myouri Alter</a></div>\n" +
         "  <div style=\"clear: both;\">";
 }
 
