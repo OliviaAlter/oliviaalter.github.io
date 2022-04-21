@@ -1,6 +1,6 @@
 animationInsert = (element) => {
     let styleSheet = document.createElement('style');
-    styleSheet.slideOut.jstype = 'text/css';
+    styleSheet.jstype = 'text/css';
     document.head.appendChild(styleSheet);
 
     styleSheet.sheet.insertRule(`@keyframes slideInOf${element.id} {
