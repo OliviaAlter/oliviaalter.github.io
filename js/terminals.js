@@ -176,28 +176,25 @@ function clear() {
     terminal.innerHTML = "";
 }
 function info() {
-    terminal.innerHTML += "\n<img alt=\"icon\" class=\"img\" src=\"../image/dtto.jpg\">\n" +
+    terminal.innerHTML += "\n<img alt=\"icon\" class=\"img\" src=\"../image/image_terminal.jpg\">\n" +
         "  <div id='terminalSpanText'><span id='terminalSpanText'>olivia</span>@<span>myouri</span></div>\n" +
         "  <div>---------------------</div>\n" +
         "  <div><span id='terminalSpanText'>OS</span>: btw I use windoze</div>\n" +
         "  <div><span id='terminalSpanText'>Nickname</span>: Myouri </div>\n" +
-        "  <div><span id='terminalSpanText'>Interested</span>: Something that is likeable</div>\n" +
-        "  <div><span id='terminalSpanText'>Ages</span>: 21 </div>\n" +
-        "  <div><span id='terminalSpanText'>Discord</span>: <a href=\"https://discord.com\" target='_blank'>Olivia#3333</a></div>\n" +
-        "  <div><span id='terminalSpanText'>Youtube</span>: <a href=\"https://www.youtube.com/channel/UC47UR8e2QlwI9NE1YFH5rrg/channels\" target='_blank'>Myouri Alter</a></div>\n" +
-        "  <div><span id='terminalSpanText'>Github</span>: <a href=\"https://github.com/OliviaAlter\" target='_blank'>Myouri Alter</a></div>\n" +
-        "  <div><span id='terminalSpanText'>Steam</span>: <a href=\"https://steamcommunity.com/id/I-Wish-I-Were-Yandere/\" target='_blank'>Myouri Alter</a></div>\n" +
+        "  <div><span id='terminalSpanText'>Interested</span>: Enna Alouette</div>\n" +
+        "  <div><span id='terminalSpanText'>Ages</span>: 22 </div>\n" +
+        "  <div><span id='terminalSpanText'>Github</span>: <a href=\"https://github.com/OliviaAlter\" target='_blank'>Olivia Alter</a></div>\n" +
+        "  <div> <span id='terminalSpanText'>Lolisafe </span> : <span id='terminalHelpText'> <a href=\"https://lolisafe.spinaria.xyz/\" target='_blank'>Lolisafe</a> \n</span></div>\n" +
+        "  <div> <span id='terminalSpanText'>Blog </span> : <span id='terminalHelpText'> <a href=\"https://blog.spinaria.xyz/\" target='_blank'>Olivia's blog</a> \n</span></div>\n" +
+        "  <div><span id='terminalSpanText'>Youtube</span>: <a href=\"https://www.youtube.com/channel/UC47UR8e2QlwI9NE1YFH5rrg/channels\" target='_blank'>Olivia</a></div>\n" +
         "  <div style=\"clear: both;\">";
 }
 
 function help() {
     terminal.innerHTML +=
         "  <div>---------------------</div>\n" +
-        "  <div><span id='terminalHelpText'>GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)\n</span></div>\n" +
-        "  <div><span id='terminalHelpText'>These shell commands are defined internally.  Type `help' to see this list.</span></div>\n" +
-        "  <div><span id='terminalHelpText'>Type `help name' to find out more about the function `name'.\n</span></div>\n" +
-        "  <div><span id='terminalHelpText'>Use `info bash' to find out more about the shell in general.\n</span></div>\n" +
-        "  <div><span id='terminalHelpText'>Use `man -k' or `info' to find out more about commands not in this list.\n</span></div>\n" +
+        "  <div><span id='terminalHelpText'>This is a for fun project created to satisfying myself\n</span></div>\n" +
+        "  <div><span id='terminalHelpText'>These link in 'neofetch command are directed at my hobbies'</span></div>\n" +
         "  <div>---------------------</div>\n" +
         "  <div style=\"clear: both;\">";
 }
