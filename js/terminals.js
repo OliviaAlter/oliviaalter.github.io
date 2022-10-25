@@ -184,8 +184,8 @@ function info() {
         "  <div><span id='terminalSpanText'>Interested</span>: Enna Alouette</div>\n" +
         "  <div><span id='terminalSpanText'>Ages</span>: 22 </div>\n" +
         "  <div><span id='terminalSpanText'>Github</span>: <a href=\"https://github.com/OliviaAlter\" target='_blank'>Olivia Alter</a></div>\n" +
-        "  <div> <span id='terminalSpanText'>Lolisafe </span> : <span id='terminalHelpText'> <a href=\"https://lolisafe.spinaria.xyz/\" target='_blank'>Lolisafe</a> \n</span></div>\n" +
-        "  <div> <span id='terminalSpanText'>Blog </span> : <span id='terminalHelpText'> <a href=\"https://blog.spinaria.xyz/\" target='_blank'>Olivia's blog</a> \n</span></div>\n" +
+        "  <div> <span id='terminalSpanText'>Lolisafe </span> : <span id='terminalHelpText'> <a href=\"https://safe.myouri.cyou/\" target='_blank'>Lolisafe</a> \n</span></div>\n" +
+        "  <div> <span id='terminalSpanText'>Blog </span> : <span id='terminalHelpText'> <a href=\"https://blog.myouri.cyou/\" target='_blank'>Olivia's blog</a> \n</span></div>\n" +
         "  <div><span id='terminalSpanText'>Youtube</span>: <a href=\"https://www.youtube.com/channel/UC47UR8e2QlwI9NE1YFH5rrg/channels\" target='_blank'>Olivia</a></div>\n" +
         "  <div style=\"clear: both;\">";
 }
@@ -196,5 +196,4 @@ function help() {
         "  <div><span id='terminalHelpText'>This is a for fun project created to satisfying myself\n</span></div>\n" +
         "  <div><span id='terminalHelpText'>These link in 'neofetch command are directed at my hobbies'</span></div>\n" +
         "  <div>---------------------</div>\n" +
-        "  <div style=\"clear: both;\">";
-}
+        "  <div style=\"clear: both;\">";}
