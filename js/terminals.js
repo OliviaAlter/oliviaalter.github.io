@@ -176,7 +176,7 @@ function clear() {
     terminal.innerHTML = "";
 }
 function info() {
-    terminal.innerHTML += "\n<img alt=\"icon\" class=\"img\" src=\"../image/image_terminal.jpg\">\n" +
+    terminal.innerHTML += "\n<img alt=\"icon\" class=\"img\" src=\"../image/enna_terminal.jpg\">\n" +
         "  <div id='terminalSpanText'><span id='terminalSpanText'>olivia</span>@<span>myouri</span></div>\n" +
         "  <div>---------------------</div>\n" +
         "  <div><span id='terminalSpanText'>OS</span>: btw I use windoze</div>\n" +
